@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Key</title>
+    <link rel="icon" href="image/bookimage.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <div id="popup">
+            <div id="mainpop">
+                <table>
+                    <tr>
+                        <td><label for="book">Book Name:</label></td>
+                        <td><input type="text" placeholder="Book Name" id="book" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="author">Author Name:</label></td>
+                        <td><input type="text" placeholder="Author Name" id="author" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="content">Content:</label>
+                        </td>
+                        <td><textarea id="content" rows="5" cols="8" required></textarea></td>
+                    </tr>
+                </table>
+                <button onclick="save()">Save</button>
+            </div>
+        </div>
+    </section>
+
+    <header>
+        <nav>
+            <h1>BOOK KEY</h1>
+        </nav>
+    </header>
+
+    <main>
+        <section id="section">
+
+            <div class="pardiv">
+                <h2>Rich dad poor dad</h2>
+                <h3> Robert T. Kiyosaki and Sharon Lechter</h3>
+                <p>Rich Dad Poor Dad is a 1997 book written by Robert T. Kiyosaki and Sharon Lechter. It advocates the importance of financial literacy (financial education), financial independence and building wealth through investing in assets, real estate investing, starting and owning businesses, as well as increasing one's financial intelligence </p>
+                <button onclick="view()" id="vmbtn">View More</button>
+                <button onclick="del(event)" class="del">Delete</button>
+                <button id="return" onclick="ret()">Return</button>
+            </div>
+
+        </section>
+    </main>
+    <footer id="plusb">
+        <button onclick="show()">+</button>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

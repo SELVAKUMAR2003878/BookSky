@@ -1,0 +1,124 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: hsl(331, 100%, 50%);
+    width: 100%;
+    height: 100px;
+    color:black;
+    padding-top:20px;
+    text-align: center;
+}
+
+nav h1{
+    font-size: 1.8em;
+}
+
+.pardiv{
+    background-color: hsl(0, 5%, 53%);
+    color:black;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    
+}
+
+#section {
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.pardiv button{
+    border-radius: 5px;
+    font-size: 1.1em;
+    color:hsl(331, 100%, 50%);
+}
+
+.pardiv button:hover{
+    color:white;
+    background-color: hsl(331, 100%, 50%);
+}
+
+#return {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 47%;
+}
+
+#popup{
+    background-color: rgb(36, 31, 31);
+    opacity: 0.9;
+    width: 100%;
+    min-height: 100%;
+    height:auto;
+    position: absolute;
+    text-align: center;
+    display: none;
+    
+}
+
+#mainpop{
+    background-color: #ffffff;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 5px;
+}
+
+#mainpop input{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 20px;
+    height: 25px;
+}
+
+#mainpop textarea{
+    text-align: center;
+    font-size: 1.1em;
+    margin-top: 20px;
+    height: 40px;
+    width: 230px;
+}
+
+#mainpop button{
+    margin-top: 30px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    color:hsl(331, 100%, 50%);
+
+}
+
+#mainpop button:hover{
+    color:white;
+    background-color: hsl(331, 100%, 50%);
+}
+
+footer button{
+    font-size: 3.4em;
+    border-radius: 100%;
+    background-color:hsl(331, 100%, 50%) ;
+    height: 80px;
+    width: 80px;
+    color:hsl(0, 43%, 3%);
+    position: sticky;
+    bottom: 40px;
+    top:500px;
+}
+
+footer{
+    text-align: end;
+    margin-right: 40px;
+}
